@@ -1,2 +1,14 @@
-# ppa
-This is the PPA area for Sagan, Meer and other Quadrant projecrts!
+# The "Official" PPA repository for Quadrantsec packages:
+
+- [meer](https://github.com/quadrantsec/meer)
+- [sagan](https://github.com/quadrantsec/sagan)
+- [sagan-rules](https://github.com/quadrantsec/sagan-rules)
+
+## Usage
+
+```bash
+curl -SsL https://quadrantsec.github.io/ppa/ubuntu/quadrantsec.gpg | sudo apt-key add -
+sudo curl -SsL -o /etc/apt/sources.list.d/quadrantsec.list https://quadrantsec.github.io/ppa/ubuntu/quadrantsec.list
+sudo apt update
+sudo apt install meer sagan sagan-rules
+```
