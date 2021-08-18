@@ -7,8 +7,8 @@
 ## Usage
 
 ```bash
-curl -SsL https://quadrantsec.github.io/ppa/ubuntu/quadrantsec.gpg | sudo apt-key add -
-sudo curl -SsL -o /etc/apt/sources.list.d/quadrantsec.list https://quadrantsec.github.io/ppa/ubuntu/quadrantsec.list
+curl -SsL https://raw.githubusercontent.com/quadrantsec/ppa/main/ubuntu/quadrantsec.gpg | sudo apt-key add -
+sudo curl -SsL -o /etc/apt/sources.list.d/quadrantsec.list https://raw.githubusercontent.com/quadrantsec/ppa/main/ubuntu/quadrantsec.list
 sudo apt update
 sudo apt install meer sagan sagan-rules
 ```
