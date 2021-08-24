@@ -1,14 +1,14 @@
 Package: meer
-Version: 0.0.6
+Version: 0.0.6-1
 Architecture: all
 Maintainer: Quadrant Information Security <soc@quadrantsec.com>
-Installed-Size: 386
+Installed-Size: 393
 Depends: libjson-c-dev, libmysqlclient-dev, libpq-dev, libhiredis-dev, libyaml-dev, mariadb-server
-Filename: ./meer_0.0.6_all.deb
-Size: 107208
-MD5sum: 7742c1b26199d7686bec27423a9accac
-SHA1: ba3dcf77689c22d07b79aafe51b17ce913b1815a
-SHA256: 118188c6757a644aa4b1e6cbe8ff32438b2d1993c08561a7235fde5e94ecfea1
+Filename: ./meer_0.0.6-1_all.deb
+Size: 107780
+MD5sum: a4ec41297d188b4139e607a41e201c31
+SHA1: 7465304c4fffd7b6a15e740136812dcf94a94883
+SHA256: eebc3bc7db4a125a47757ee9110971df803252f7f3e44530e1c53240f6a89ec3
 Priority: optional
 Description: “Meer” is a dedicated “spooler” for the Suricata
  IDS/IPS and Sagan log analysis engines. This means that as
@@ -27,16 +27,16 @@ Description: “Meer” is a dedicated “spooler” for the Suricata
  valuable information that does not exist in unified2.
 
 Package: sagan
-Version: 2.0.2
+Version: 2.0.2-1
 Architecture: all
 Maintainer: Quadrant Information Security <soc@quadrantsec.com>
-Installed-Size: 1615
-Depends: libpcre3, libyaml-dev, liblognorm-dev, libfastjson-dev, libesmtp-dev, libmaxminddb0, libmaxminddb-dev, geoip-database, geoipupdate, libhiredis-dev, libpcap-dev
-Filename: ./sagan_2.0.2_all.deb
-Size: 396792
-MD5sum: d8ef28152afe470eb45e44ffb9f753a1
-SHA1: 40f4c92cb4fb4bdd00a76cb9a94f32adc4e676d8
-SHA256: 50888a497aaeb933229f967aa6c4ec8ff8f062df34f390b40d522d63d213ed63
+Installed-Size: 1632
+Depends: adduser, libpcre3, libyaml-dev, liblognorm-dev, libfastjson-dev, libesmtp-dev, libmaxminddb0, libmaxminddb-dev, geoip-database, geoipupdate, libhiredis-dev, libpcap-dev, sagan-rules
+Filename: ./sagan_2.0.2-1_all.deb
+Size: 398848
+MD5sum: f296cc0acfd2b82cb4e04edd40278d8b
+SHA1: 4c3ee8341f5678c9928478bf1d55629b0ac05fda
+SHA256: 23c4f659c8fbb0bfd168b5ad9d61a48473f2b0c3ba71a4af4e3e7302c5c8b84c
 Priority: optional
 Description: High performance, real-time log analysis &
  correlation engine Sagan is an open source (GNU/GPLv2)
