@@ -4,7 +4,7 @@
 - [sagan](https://github.com/quadrantsec/sagan)
 - [sagan-rules](https://github.com/quadrantsec/sagan-rules)
 
-*If you grabbed the gpg key before 08/24/2021, you will need to grab the new one.
+*If you grabbed the gpg key before 08/24/2021, you will need to grab the new one. Run the first curl command listed below.*
 
 ## Usage
 
