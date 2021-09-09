@@ -1,4 +1,32 @@
 Package: meer
+Version: 0.0.6
+Architecture: all
+Maintainer: Quadrant Information Security <soc@quadrantsec.com>
+Installed-Size: 386
+Depends: libjson-c-dev, libmysqlclient-dev, libpq-dev, libhiredis-dev, libyaml-dev, mariadb-server
+Filename: ./meer_0.0.6_all.deb
+Size: 107208
+MD5sum: 7742c1b26199d7686bec27423a9accac
+SHA1: ba3dcf77689c22d07b79aafe51b17ce913b1815a
+SHA256: 118188c6757a644aa4b1e6cbe8ff32438b2d1993c08561a7235fde5e94ecfea1
+Priority: optional
+Description: “Meer” is a dedicated “spooler” for the Suricata
+ IDS/IPS and Sagan log analysis engines. This means that as
+ Suricata or Sagan write alerts out to a file, Meer can ‘follow’
+ that file and store the alert information into a database.
+ You can think of the “spool” file as a 'queuing' system for
+ alerts from Suricata or Sagan. Using a “spooling” system ensures
+ the delivery of alerts to a back end database. This task was
+ traditionally accomplished by using a file format called "unified2"
+ which was developed by the SourceFire/Snort team and a program
+ called Barnyard2. While unified2 has been useful, its binary
+ nature makes it difficult to work with and has not been extended
+ in quite sometime. Meer uses Suricata and Sagan's "EVE" output
+ formats instead of unified2. EVE is a text file that contains JSON
+ which makes it more easy to work with. The EVE output also contains
+ valuable information that does not exist in unified2.
+
+Package: meer
 Version: 0.0.6-1
 Architecture: all
 Maintainer: Quadrant Information Security <soc@quadrantsec.com>
@@ -27,6 +55,37 @@ Description: “Meer” is a dedicated “spooler” for the Suricata
  valuable information that does not exist in unified2.
 
 Package: sagan
+Version: 2.0.2
+Architecture: all
+Maintainer: Quadrant Information Security <soc@quadrantsec.com>
+Installed-Size: 1615
+Depends: libpcre3, libyaml-dev, liblognorm-dev, libfastjson-dev, libesmtp-dev, libmaxminddb0, libmaxminddb-dev, geoip-database, geoipupdate, libhiredis-dev, libpcap-dev
+Filename: ./sagan_2.0.2_all.deb
+Size: 396792
+MD5sum: d8ef28152afe470eb45e44ffb9f753a1
+SHA1: 40f4c92cb4fb4bdd00a76cb9a94f32adc4e676d8
+SHA256: 50888a497aaeb933229f967aa6c4ec8ff8f062df34f390b40d522d63d213ed63
+Priority: optional
+Description: High performance, real-time log analysis &
+ correlation engine Sagan is an open source (GNU/GPLv2)
+ multi-threaded, high performance, real-time log analysis
+ & correlation engine developed by Quadrant Information
+ Security that runs on Unix operating systems. It is
+ written in C and uses a multi-threaded architecture to
+ deliver high performance log & event analysis. Sagan's
+ structure and rules work similarly to the Sourcefire
+ Snort IDS/IPS engine. This allows Sagan to be compatible
+ with Snort rule management software and give Sagan the
+ ability to correlate with Snort IDS/IPS data. Sagan can
+ record events to the Snort unified2 output format which
+ makes Sagan compatible with user interfaces such as Snorby,
+ Sguil, BASE and proprietary consoles. Sagan supports
+ different output formats for reporting and analysis, log
+ normalization, script execution on event detection, automatic
+ firewall support via Snortsam, GeoIP detection/alerting,
+ multi-line log support, and time sensitive alerting.
+
+Package: sagan
 Version: 2.0.2-1
 Architecture: all
 Maintainer: Quadrant Information Security <soc@quadrantsec.com>
@@ -37,6 +96,37 @@ Size: 398848
 MD5sum: f296cc0acfd2b82cb4e04edd40278d8b
 SHA1: 4c3ee8341f5678c9928478bf1d55629b0ac05fda
 SHA256: 23c4f659c8fbb0bfd168b5ad9d61a48473f2b0c3ba71a4af4e3e7302c5c8b84c
+Priority: optional
+Description: High performance, real-time log analysis &
+ correlation engine Sagan is an open source (GNU/GPLv2)
+ multi-threaded, high performance, real-time log analysis
+ & correlation engine developed by Quadrant Information
+ Security that runs on Unix operating systems. It is
+ written in C and uses a multi-threaded architecture to
+ deliver high performance log & event analysis. Sagan's
+ structure and rules work similarly to the Sourcefire
+ Snort IDS/IPS engine. This allows Sagan to be compatible
+ with Snort rule management software and give Sagan the
+ ability to correlate with Snort IDS/IPS data. Sagan can
+ record events to the Snort unified2 output format which
+ makes Sagan compatible with user interfaces such as Snorby,
+ Sguil, BASE and proprietary consoles. Sagan supports
+ different output formats for reporting and analysis, log
+ normalization, script execution on event detection, automatic
+ firewall support via Snortsam, GeoIP detection/alerting,
+ multi-line log support, and time sensitive alerting.
+
+Package: sagan
+Version: 2.0.2-2
+Architecture: all
+Maintainer: Quadrant Information Security <soc@quadrantsec.com>
+Installed-Size: 1623
+Depends: adduser, libpcre3, libyaml-dev, liblognorm-dev, libfastjson-dev, libesmtp-dev, libmaxminddb0, libmaxminddb-dev, geoip-database, geoipupdate, libhiredis-dev, libpcap-dev, sagan-rules
+Filename: ./sagan_2.0.2-2_all.deb
+Size: 397228
+MD5sum: de61ffe7ec8694b382df8f117b070deb
+SHA1: 14db29b918e4186e657822d10e0f27a7dd525552
+SHA256: f3963adb029e6057f592422d73425175797b8065e0ad85321e09945510a3d83b
 Priority: optional
 Description: High performance, real-time log analysis &
  correlation engine Sagan is an open source (GNU/GPLv2)
