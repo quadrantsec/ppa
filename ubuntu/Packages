@@ -124,9 +124,9 @@ Installed-Size: 1623
 Depends: adduser, libpcre3, libyaml-dev, liblognorm-dev, libfastjson-dev, libesmtp-dev, libmaxminddb0, libmaxminddb-dev, geoip-database, geoipupdate, libhiredis-dev, libpcap-dev, sagan-rules
 Filename: ./sagan_2.0.2-2_all.deb
 Size: 397228
-MD5sum: de61ffe7ec8694b382df8f117b070deb
-SHA1: 14db29b918e4186e657822d10e0f27a7dd525552
-SHA256: f3963adb029e6057f592422d73425175797b8065e0ad85321e09945510a3d83b
+MD5sum: f8c3f3df92dbaa854c7488e1da530183
+SHA1: 7f0b8b1663aeb4b5b77984ecffec99c08ecf4a6f
+SHA256: 96e3a55ea9dae7e83acb0b576e2c654d751eedd7a6aab2b760be906614608c01
 Priority: optional
 Description: High performance, real-time log analysis &
  correlation engine Sagan is an open source (GNU/GPLv2)
