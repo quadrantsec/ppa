@@ -123,10 +123,10 @@ Maintainer: Quadrant Information Security <soc@quadrantsec.com>
 Installed-Size: 1623
 Depends: adduser, libpcre3, libyaml-dev, liblognorm-dev, libfastjson-dev, libesmtp-dev, libmaxminddb0, libmaxminddb-dev, geoip-database, geoipupdate, libhiredis-dev, libpcap-dev, sagan-rules
 Filename: ./sagan_2.0.2-2_all.deb
-Size: 397280
-MD5sum: 6e688233a1987f50953592ad8d6ed274
-SHA1: 388d0c600da46fd16b4b60c54779b122ba83ae9e
-SHA256: c26cd5973aa45c64cf203bfcc7fed74052dc36a677cf620a4803652e4acc14b0
+Size: 397528
+MD5sum: b5c3b8614d1382f753033dd2a721374a
+SHA1: 940c32c1970694e74ef6ddd5fc53cdf2b7bc4607
+SHA256: 691e68b9146c3e0afaa8dae548e77506ad14595f16f020b5121aea155d88ea2c
 Priority: optional
 Description: High performance, real-time log analysis &
  correlation engine Sagan is an open source (GNU/GPLv2)
