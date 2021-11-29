@@ -110,6 +110,34 @@ Description: “Meer” is a dedicated “spooler” for the Suricata
  which makes it more easy to work with. The EVE output also contains
  valuable information that does not exist in unified2.
 
+Package: meer
+Version: 1.0.0
+Architecture: all
+Maintainer: Quadrant Information Security <soc@quadrantsec.com>
+Installed-Size: 470
+Depends: libjson-c-dev, libmysqlclient-dev, libpq-dev, libhiredis-dev, libyaml-dev, mariadb-server
+Filename: ./meer_1.0.0_all.deb
+Size: 122600
+MD5sum: 0bbfa66164f3479dd69426e00d24b804
+SHA1: ce89ab7164164c823367cfddadbd79b98aaaf7e8
+SHA256: 243a782f9dbff02ad8c98e3e7d960d6260c74c8da7b4983ecdfd3bb48e84af5b
+Priority: optional
+Description: “Meer” is a dedicated “spooler” for the Suricata
+ IDS/IPS and Sagan log analysis engines. This means that as
+ Suricata or Sagan write alerts out to a file, Meer can ‘follow’
+ that file and store the alert information into a database.
+ You can think of the “spool” file as a 'queuing' system for
+ alerts from Suricata or Sagan. Using a “spooling” system ensures
+ the delivery of alerts to a back end database. This task was
+ traditionally accomplished by using a file format called "unified2"
+ which was developed by the SourceFire/Snort team and a program
+ called Barnyard2. While unified2 has been useful, its binary
+ nature makes it difficult to work with and has not been extended
+ in quite sometime. Meer uses Suricata and Sagan's "EVE" output
+ formats instead of unified2. EVE is a text file that contains JSON
+ which makes it more easy to work with. The EVE output also contains
+ valuable information that does not exist in unified2.
+
 Package: sagan
 Version: 2.0.2
 Architecture: all
