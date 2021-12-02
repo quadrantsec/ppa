@@ -117,12 +117,12 @@ Maintainer: Quadrant Information Security <soc@quadrantsec.com>
 Installed-Size: 658
 Depends: libjson-c-dev, libmysqlclient-dev, libpq-dev, libhiredis-dev, libyaml-dev, mariadb-server, libcurl4-openssl-dev, libmaxminddb-dev
 Filename: ./meer_1.0.0_all.deb
-Size: 173908
-MD5sum: ab21d07bc699db2b2d2ec27a57feeeff
-SHA1: 83ff29d48f3d8e11839f73732de2ddd07ca50b01
-SHA256: a976217f0dd8cac4880968e94e6c0120d26f1f7b7f48c495de0a9c0c3ddb6108
+Size: 173900
+MD5sum: 5093c82a4b073d16ce77e3fbf6ca6175
+SHA1: 02d3ae008a9fdb828d5a3e67a7191c823aa2f907
+SHA256: ecf1890122cc6ed5df3a5e10eace4c761b4e98a72d967f34ec1b13dcaadf7abd
 Priority: optional
-Description: “Meer” is a dedicated “spooler” for Suricata and Sagan.
+Description: Meer is a dedicated spooler for Suricata and Sagan.
  This means that as Suricata or Sagan write alerts out to a file,
  Meer can ‘follow’ that file and store the alert information into
  a database. You can think of the “spool” file as a 'queuing' system
