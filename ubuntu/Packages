@@ -115,18 +115,18 @@ Version: 1.0.0
 Architecture: all
 Maintainer: Quadrant Information Security <soc@quadrantsec.com>
 Installed-Size: 658
+Depends: libjson-c-dev, libmysqlclient-dev, libpq-dev, libhiredis-dev, libyaml-dev, mariadb-server, libcurl4-openssl-dev, libmaxminddb-dev
 Filename: ./meer_1.0.0_all.deb
-Size: 173860
-MD5sum: 7d9073d12dd0c5eb9686a0030a3fbb04
-SHA1: f2d1d7ce8f24969e5bb6fc849ddf17bdcf607874
-SHA256: 30f4666439ce0af4e2a68804b24a47ab3af563e87edb0ce85dd05882391d73fa
+Size: 173908
+MD5sum: ab21d07bc699db2b2d2ec27a57feeeff
+SHA1: 83ff29d48f3d8e11839f73732de2ddd07ca50b01
+SHA256: a976217f0dd8cac4880968e94e6c0120d26f1f7b7f48c495de0a9c0c3ddb6108
 Priority: optional
-Description: “Meer” is a dedicated “spooler” for the Suricata
- IDS/IPS and Sagan log analysis engines. This means that as
- Suricata or Sagan write alerts out to a file, Meer can ‘follow’
- that file and store the alert information into a database.
- You can think of the “spool” file as a 'queuing' system for
- alerts from Suricata or Sagan. Using a “spooling” system ensures
+Description: “Meer” is a dedicated “spooler” for Suricata and Sagan.
+ This means that as Suricata or Sagan write alerts out to a file,
+ Meer can ‘follow’ that file and store the alert information into
+ a database. You can think of the “spool” file as a 'queuing' system
+ for alerts from Suricata or Sagan. Using a “spooling” system ensures
  the delivery of alerts to a back end database. This task was
  traditionally accomplished by using a file format called "unified2"
  which was developed by the SourceFire/Snort team and a program
