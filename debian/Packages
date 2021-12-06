@@ -25,3 +25,49 @@ Description: Meer is a dedicated spooler for Suricata and Sagan.
  which makes it more easy to work with. The EVE output also contains
  valuable information that does not exist in unified2.
 
+Package: sagan
+Version: 2.0.2-4
+Architecture: all
+Maintainer: Quadrant Information Security <soc@quadrantsec.com>
+Installed-Size: 1615
+Depends: adduser, libpcre3, libyaml-dev, liblognorm-dev, libfastjson-dev, libesmtp-dev, libmaxminddb0, libmaxminddb-dev, geoip-database, geoipupdate, libhiredis-dev, libpcap-dev, sagan-rules
+Filename: ./sagan_2.0.2-4_all.deb
+Size: 394440
+MD5sum: 60ec77d0fbe51cf2d41666b0206d3409
+SHA1: a551c02904701cd7f21dc99f3882a9bb6df6fd12
+SHA256: 2e950f82c436f7aaebb4c96340356823c0a168c07106bf00ecac35a757799e26
+Priority: optional
+Description: High performance, real-time log analysis &
+ correlation engine Sagan is an open source (GNU/GPLv2)
+ multi-threaded, high performance, real-time log analysis
+ & correlation engine developed by Quadrant Information
+ Security that runs on Unix operating systems. It is
+ written in C and uses a multi-threaded architecture to
+ deliver high performance log & event analysis. Sagan's
+ structure and rules work similarly to the Sourcefire
+ Snort IDS/IPS engine. This allows Sagan to be compatible
+ with Snort rule management software and give Sagan the
+ ability to correlate with Snort IDS/IPS data. Sagan can
+ record events to the Snort unified2 output format which
+ makes Sagan compatible with user interfaces such as Snorby,
+ Sguil, BASE and proprietary consoles. Sagan supports
+ different output formats for reporting and analysis, log
+ normalization, script execution on event detection, automatic
+ firewall support via Snortsam, GeoIP detection/alerting,
+ multi-line log support, and time sensitive alerting.
+
+Package: sagan-rules
+Version: 2:20211110
+Architecture: all
+Maintainer: Quadrant Information Security <soc@quadrantsec.com>
+Installed-Size: 4584
+Filename: ./sagan-rules_20211110_all.deb
+Size: 304972
+MD5sum: 8b3c6cea9cf909a5518efbd2c997b61d
+SHA1: 3f4a8a3f30ee89de8088aaa5acd4f6af14d69e73
+SHA256: 9fce67adef9bbd11cbba9435f3306946a25a31b1c3d7668ac4b8a212ee96968e
+Priority: optional
+Description: This package provides the rule sets for the
+ high performance, real-time log analysis & correlation
+ engine, Sagan.
+
