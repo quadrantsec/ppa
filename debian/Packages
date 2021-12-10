@@ -83,6 +83,37 @@ Description: High performance, real-time log analysis &
  firewall support via Snortsam, GeoIP detection/alerting,
  multi-line log support, and time sensitive alerting.
 
+Package: sagan
+Version: 2.0.2-5
+Architecture: all
+Maintainer: Quadrant Information Security <soc@quadrantsec.com>
+Installed-Size: 1800
+Depends: adduser, libpcre3, libyaml-dev, liblognorm-dev, libfastjson-dev, libesmtp-dev, libmaxminddb0, libmaxminddb-dev, geoip-database, geoipupdate, libhiredis-dev, libpcap-dev, sagan-rules
+Filename: ./sagan_2.0.2-5_all.deb
+Size: 423428
+MD5sum: 1426431cc54c5506e659efda24aad091
+SHA1: 06e6766dbcff0b85376d1c5481b6fe7baca4f14e
+SHA256: 28ba37fafeed90436101f6df5dcb771c278dca9ff73b8faa3eab1daba19f6e8d
+Priority: optional
+Description: High performance, real-time log analysis &
+ correlation engine Sagan is an open source (GNU/GPLv2)
+ multi-threaded, high performance, real-time log analysis
+ & correlation engine developed by Quadrant Information
+ Security that runs on Unix operating systems. It is
+ written in C and uses a multi-threaded architecture to
+ deliver high performance log & event analysis. Sagan's
+ structure and rules work similarly to the Sourcefire
+ Snort IDS/IPS engine. This allows Sagan to be compatible
+ with Snort rule management software and give Sagan the
+ ability to correlate with Snort IDS/IPS data. Sagan can
+ record events to the Snort unified2 output format which
+ makes Sagan compatible with user interfaces such as Snorby,
+ Sguil, BASE and proprietary consoles. Sagan supports
+ different output formats for reporting and analysis, log
+ normalization, script execution on event detection, automatic
+ firewall support via Snortsam, GeoIP detection/alerting,
+ multi-line log support, and time sensitive alerting.
+
 Package: sagan-rules
 Version: 2:20211110
 Architecture: all
