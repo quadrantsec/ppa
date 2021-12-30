@@ -380,3 +380,18 @@ Description: This package provides the rule sets for the
  high performance, real-time log analysis & correlation
  engine, Sagan.
 
+Package: sagan-rules
+Version: 2:20211230
+Architecture: all
+Maintainer: Quadrant Information Security <soc@quadrantsec.com>
+Installed-Size: 4586
+Filename: ./sagan-rules_20211230_all.deb
+Size: 305148
+MD5sum: 568ac6e28ff903265858ffe63e7a260a
+SHA1: 89e2a3f67d3a3f14d51043fec323b82202ded0d0
+SHA256: 0ab0fa39a9fa4d6b6a8eb8f55cf90d888ea6538466e25e56d0bd2217d7aaa74c
+Priority: optional
+Description: This package provides the rule sets for the
+ high performance, real-time log analysis & correlation
+ engine, Sagan.
+

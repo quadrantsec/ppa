@@ -4,6 +4,10 @@
 - [sagan](https://github.com/quadrantsec/sagan)
 - [sagan-rules](https://github.com/quadrantsec/sagan-rules)
 
+Join the Sagan Discord channel!
+
+[![Discord](./screenshots/discord.png)](https://discord.gg/n6ReCZED)
+
 ## Usage
 
 As of now we are supporting Ubuntu and Debian! Follow the instructions below! 
