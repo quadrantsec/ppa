@@ -4,9 +4,9 @@
 - [sagan](https://github.com/quadrantsec/sagan)
 - [sagan-rules](https://github.com/quadrantsec/sagan-rules)
 
-Join the Sagan Discord channel!
+#### Join the Sagan Discord channel!
 
-[![Discord](./screenshots/discord.png)](https://discord.gg/n6ReCZED)
+[![Discord](./screenshots/discord.png)](https://discord.gg/VS6jTjH4gW)
 
 ## Usage
 
