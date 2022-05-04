@@ -350,6 +350,37 @@ Description: High performance, real-time log analysis &
  firewall support via Snortsam, GeoIP detection/alerting,
  multi-line log support, and time sensitive alerting.
 
+Package: sagan
+Version: 2.1.0
+Architecture: all
+Maintainer: Quadrant Information Security <soc@quadrantsec.com>
+Installed-Size: 1799
+Depends: adduser, libpcre3, libyaml-dev, liblognorm-dev, libfastjson-dev, libesmtp-dev, libmaxminddb0, libmaxminddb-dev, geoip-database, geoipupdate, libhiredis-dev, libpcap-dev, sagan-rules
+Filename: ./sagan_2.1.0_all.deb
+Size: 429496
+MD5sum: bd514891a1cb6d4fc950ccd17a3d1184
+SHA1: 6b3602e90a1e77dd5eced9afe74871cace33c6cc
+SHA256: 70ae0acfd507f4f237897f40cd4fb81f051d15f09773a55236226ce88d9856a2
+Priority: optional
+Description: High performance, real-time log analysis &
+ correlation engine Sagan is an open source (GNU/GPLv2)
+ multi-threaded, high performance, real-time log analysis
+ & correlation engine developed by Quadrant Information
+ Security that runs on Unix operating systems. It is
+ written in C and uses a multi-threaded architecture to
+ deliver high performance log & event analysis. Sagan's
+ structure and rules work similarly to the Sourcefire
+ Snort IDS/IPS engine. This allows Sagan to be compatible
+ with Snort rule management software and give Sagan the
+ ability to correlate with Snort IDS/IPS data. Sagan can
+ record events to the Snort unified2 output format which
+ makes Sagan compatible with user interfaces such as Snorby,
+ Sguil, BASE and proprietary consoles. Sagan supports
+ different output formats for reporting and analysis, log
+ normalization, script execution on event detection, automatic
+ firewall support via Snortsam, GeoIP detection/alerting,
+ multi-line log support, and time sensitive alerting.
+
 Package: sagan-rules
 Version: 2:20210817
 Architecture: all
@@ -390,6 +421,21 @@ Size: 305148
 MD5sum: 568ac6e28ff903265858ffe63e7a260a
 SHA1: 89e2a3f67d3a3f14d51043fec323b82202ded0d0
 SHA256: 0ab0fa39a9fa4d6b6a8eb8f55cf90d888ea6538466e25e56d0bd2217d7aaa74c
+Priority: optional
+Description: This package provides the rule sets for the
+ high performance, real-time log analysis & correlation
+ engine, Sagan.
+
+Package: sagan-rules
+Version: 2:20220504
+Architecture: all
+Maintainer: Quadrant Information Security <soc@quadrantsec.com>
+Installed-Size: 4637
+Filename: ./sagan-rules_20220504_all.deb
+Size: 309984
+MD5sum: e9f29542e5956a7ab79e1b3c1cbabb67
+SHA1: d5b7f783f2fc8ccc55b8174293210cb0f99c468d
+SHA256: b370aa800feee03d72b06cca4d96f68d5dda4a919084b86d40ef58bf4ab4563b
 Priority: optional
 Description: This package provides the rule sets for the
  high performance, real-time log analysis & correlation
